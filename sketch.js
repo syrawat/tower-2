@@ -68,7 +68,10 @@ function draw(){
     background(183, 255, 3);
     Engine.update(engine);
     strokeWeight(4);
-    
+    ground.display();
+    ground1.display();
+    ground2.display();
+    fill("red")
       block1.display();
 
       block2.display();
@@ -87,7 +90,7 @@ function draw(){
 
      block9.display();
 
-     block10.shapeColor = "red";
+    
      block10.display();
 
      block11.display();
@@ -115,9 +118,7 @@ function draw(){
       block22.display();
 
 
-    ground.display();
-    ground1.display();
-    ground2.display();
+   
 
     bird.display();
 
